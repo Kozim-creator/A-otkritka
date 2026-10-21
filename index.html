@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#070719">
+  <title>Cosmic Love — Для Аиды 💜</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <canvas id="universe"></canvas>
+  <div class="nebula nebula-one"></div>
+  <div class="nebula nebula-two"></div>
+  <div class="nebula nebula-three"></div>
+  <div class="vignette"></div>
+  <div class="scanlines"></div>
+  <div id="lightning"></div>
+  <div id="floating-hearts"></div>
+
+  <header class="topbar">
+    <a href="#" class="logo" aria-label="Cosmic Love">
+      <span class="logo-icon">✦</span>
+      COSMIC <span>LOVE</span>
+    </a>
+
+    <button id="music-button" class="music-button" type="button">
+      <span id="music-icon">♫</span>
+      <span id="music-text">Включить музыку</span>
+    </button>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <div class="orbit orbit-one"></div>
+      <div class="orbit orbit-two"></div>
+      <div class="orbit orbit-three"></div>
+
+      <div class="intro">
+        <div class="overline">
+          <span class="tiny-star">✧</span>
+          A MESSAGE FROM MY HEART
+          <span class="tiny-star">✧</span>
+        </div>
+
+        <h1>
+          Для тебя,<br>
+          <span class="name">Аида</span><span class="name-heart">♥</span>
+        </h1>
+
+        <p class="subtitle">
+          Даже среди бесконечности звёзд<br>
+          есть одна, которая светит особенно.
+        </p>
+
+        <div class="cosmic-heart" id="cosmic-heart" aria-hidden="true">
+          <div class="heart-aura"></div>
+          <div class="heart-ring ring-a"></div>
+          <div class="heart-ring ring-b"></div>
+          <div class="heart-core">♥</div>
+          <div class="heart-spark spark-a">✦</div>
+          <div class="heart-spark spark-b">✧</div>
+          <div class="heart-spark spark-c">✦</div>
+        </div>
+
+        <div class="instruction">
+          <span class="instruction-dot"></span>
+          ДЛЯ ТЕБЯ ЕСТЬ НЕЧТО ОСОБЕННОЕ
+        </div>
+
+        <button id="open-letter" class="open-button" type="button">
+          <span class="button-star">✧</span>
+          <span>Открыть моё письмо</span>
+          <span class="button-arrow">↗</span>
+        </button>
+
+        <p class="small-note">made with love, just for you ♡</p>
+      </div>
+
+      <div class="planet planet-one"><span></span></div>
+      <div class="planet planet-two"><span></span></div>
+      <div class="planet planet-three"></div>
+
+      <div class="shooting-star shooting-one"></div>
+      <div class="shooting-star shooting-two"></div>
+    </section>
+
+    <section class="letter-section" id="letter-section" aria-hidden="true">
+      <div class="letter-card">
+        <div class="letter-top">
+          <span class="letter-symbol">✦</span>
+          <span>СЕКРЕТНОЕ ПОСЛАНИЕ</span>
+          <span class="letter-symbol">✦</span>
+        </div>
+
+        <div class="letter-decoration">♡</div>
+
+        <h2>Аида, это для тебя</h2>
+
+        <div class="letter-divider">
+          <span></span> ✧ <span></span>
+        </div>
+
+        <div class="letter-message" id="letter-message"></div>
+
+        <div class="letter-signature">
+          <span>С теплом и нежностью,</span>
+          <strong>от всего сердца ♥</strong>
+        </div>
+
+        <button class="heart-button" id="heart-button" type="button">
+          <span>♥</span> Отправить сердечки
+        </button>
+
+        <button class="close-letter" id="close-letter" type="button">
+          Вернуться к звёздам ↑
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>✧</span>
+    SOME FEELINGS ARE WRITTEN IN THE STARS
+    <span>✧</span>
+  </footer>
+
+  <div id="toast" class="toast" role="status"></div>
+</body>
+</html>
